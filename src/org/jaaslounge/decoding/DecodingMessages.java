@@ -52,10 +52,8 @@ public class DecodingMessages {
 	public static String getString(String key) {
 		String msg = "Unknown error";
 		
-		System.err.println("Deconding key {" + key + "}");
 		if (key != null) {
 			key = key.replace('.', '_');
-			System.err.println("Deconding key {" + key + "}");
 			if (errors.containsKey(key)) {
 				msg = errors.get(key);
 			}
