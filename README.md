@@ -8,7 +8,8 @@ A feature not implemented in JaasLounge which is crucial to us since we use kerb
 
 The following fork of JaasLounge therefore provides the following:
 * Support AES ciphers in Windows AD >= 2008
-* Is based on BouncyCastle API 2.0 (BouncyCastle 1.55 used) Compiles and run under Java8
+* Is based on BouncyCastle API 2.0 (BouncyCastle 1.55 used)
+* Compiles and run under Java8
 * Support secret keys from keytab files to decrypt kerberos tickets
 
 ## Installation
