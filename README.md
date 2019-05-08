@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-Since JaasLounge seems abandoned we at CBS decided to fork the project since we the projects feature for our in house development. Since development has stopped in 2010 and Microsoft AD since then has jumped to use AES ciphers in tickets the library needed to be upgrade to handle AES ciphers. The library was also based on an old version of BouncyCastle which uses BouncyCastle API 1.0 and current BouncyCastle uses API 2.0 then the library also needed to be ported to BouncyCastle uses API 2.0.
+Since JaasLounge seems abandoned we at CBS decided to fork the project since we need the projects feature for our in house development. Since development has stopped in 2010 and Microsoft AD since then has jumped to use AES ciphers in tickets the library needed to be upgrade to handle AES ciphers. The library was also based on an old version of BouncyCastle which uses BouncyCastle API 1.0 and current BouncyCastle uses API 2.0 then the library also needed to be ported to BouncyCastle uses API 2.0.
 
 A feature not implemented in JaasLounge which is crucial to us since we use kerberos as authentication and authorization for our service bus integrations is to be able to fetch secret keys from a keytab file.
 
